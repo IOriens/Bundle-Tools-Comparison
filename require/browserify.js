@@ -1,0 +1,11 @@
+const fs = require('fs')
+const browserify = require('browserify')
+const path = require('path')
+// const babelify = require('babelify')
+
+browserify({ debug: true })
+  // .transform(babelify)
+  .require(path.resolve(__dirname, './src/app.js'), { entry: true })
+  .bundle()
+  .on('error', function (err) { console.log('Error: ' + err.message) })
+  .pipe(fs.createWriteStream(path.resolve(__dirname, './dist/browserify-bundle.js')))
