@@ -14,12 +14,12 @@ const fuseBox = fsbx.FuseBox.init({
         sourceMaps: false,
         presets: ['es2015']
       }
-    }),
-    fsbx.UglifyJSPlugin({
-      'compress': {
-        warnings: false
-      }
     })
+    // fsbx.UglifyJSPlugin({
+    //   'compress': {
+    //     warnings: false
+    //   }
+    // })
   ]
 })
 
