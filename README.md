@@ -1,5 +1,5 @@
 ## Intro
-Testing all kinds of module bundlers like webpack, fuse-box and browserify.
+Compare JS Modules Bundling result with all kinds of module bundlers like webpack, fuse-box and browserify.
 
 ## Usage
 
@@ -10,16 +10,19 @@ cnpm i
 # cd to import or require dir.
 cd import
 
-# Test webpack 2 
+# Bundle with webpack 2 
 node webpack.js 
 
-# Test webpack 1 
+# Bundle with webpack 1 
 node webpack.1.js
 
-# Test fuse-box
+# Bundle with fuse-box
 node fuse.js
 
-# Test browserify
+# Bundle with browserify
 node browserify.js
 ```
 Checkout built files in `dist` directory. 
+
+## Tips
+Uncomment uglify configuration in each entry file to get minified build files. 

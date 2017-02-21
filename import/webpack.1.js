@@ -3,7 +3,7 @@ const webpackVersion = `webpack@1.12`
 console.log(`Installing ${webpackVersion}`)
 niv.install(webpackVersion)
 
-const webpack = niv.require('webpack')
+const webpack = niv.require(webpackVersion)
 const path = require('path')
 const fs = require('fs')
 
