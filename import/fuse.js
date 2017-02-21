@@ -4,8 +4,8 @@ const path = require('path')
 // Create FuseBox Instance
 
 const fuseBox = fsbx.FuseBox.init({
-  // homeDir: path.join(__dirname, 'src'),
-  homeDir: './import/src',
+  homeDir: path.join(__dirname, 'src'),
+  // homeDir: './import/src',
   outFile: path.join(__dirname, 'dist/fuse-bundle.js'),
   plugins: [
     fsbx.BabelPlugin({

@@ -8,12 +8,12 @@ webpack({
     filename: 'webpack-bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
-  module: {
-    rules: [{
-      test: /\.jsx?$/,
-      loader: 'babel-loader'
-    }]
-  },
+  // module: {
+  //   rules: [{
+  //     test: /\.jsx?$/,
+  //     loader: 'babel-loader'
+  //   }]
+  // },
   plugins: [
     // new webpack.optimize.UglifyJsPlugin({
     //   'compress': {

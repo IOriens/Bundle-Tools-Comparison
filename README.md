@@ -19,4 +19,4 @@ node fuse.js
 # Test browserify
 node browserify.js
 ```
-Check out built files in `dist` directory. 
+Checkout built files in `dist` directory. 
