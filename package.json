@@ -17,5 +17,8 @@
     "presets": [
       "es2015"
     ]
+  },
+  "dependencies": {
+    "systemjs": "^0.20.9"
   }
 }

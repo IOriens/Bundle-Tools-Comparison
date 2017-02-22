@@ -1,3 +1,3 @@
-var user = require('./user')
+var user = require('./user.js')
 
 console.log(user.getName())
