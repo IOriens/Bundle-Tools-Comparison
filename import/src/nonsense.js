@@ -1,1 +1,1 @@
-console.log(`I am not exporting anything.`)
+console.log(`Executed where I'm imported`)
